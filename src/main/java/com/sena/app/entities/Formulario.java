@@ -37,28 +37,28 @@ public class Formulario {
 
     //Atributos de la tabla Formulario
 
-    @Column(name = "entidad", length = 45, nullable = false)
+    @Column(name = "entidad", length = 500, nullable = false)
     private String entidad;
 
-    @Column(name = "tipo", length = 45, nullable = false)
+    @Column(name = "tipo", length = 500, nullable = false)
     private String tipo;
 
     @Column(name = "presupuesto", nullable = false)
     private String presupuesto;
 
-    @Column(name = "especificaciones", length = 45, nullable = false)
+    @Column(name = "especificaciones", length = 500, nullable = false)
     private String especificaciones;
 
-    @Column(name = "requerimientos", length = 45, nullable = false)
+    @Column(name = "requerimientos", length = 500, nullable = false)
     private String requerimientos;
 
-    @Column(name = "etapa", length = 45, nullable = false)
+    @Column(name = "etapa", length = 500, nullable = false)
     private String etapa;
 
-    @Column(name = "observaciones", length = 45, nullable = false)
+    @Column(name = "observaciones", length = 500, nullable = false)
     private String observaciones;
 
-    @Column(name = "ubicacion", length = 45, nullable = false)
+    @Column(name = "ubicacion", length = 500, nullable = false)
     private String ubicacion;
 
 }

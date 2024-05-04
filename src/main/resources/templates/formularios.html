@@ -65,9 +65,16 @@
               <td th:text="${formulario.etapa}">Etapa</td>
               <td th:text="${formulario.observaciones}">Observaciones</td>
               <td th:text="${formulario.ubicacion}">Ubicación</td>
+              <br>
               <td>
+                  <br>
                   <a th:href="@{/formularios/editar/{id}(id=${formulario.id})}" class="btn btn-info">Editar</a>
+
+                  <br>
+
                   <a th:href="@{/formularios/{id}(id=${formulario.id})}" class="btn btn-danger">Eliminar</a>
+
+                  <br>
               </td>
           </tr>
           </tbody>
